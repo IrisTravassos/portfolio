@@ -1,0 +1,10 @@
+Por que o Inception-V3 é uma boa "referência"?
+R- porque ele foi treinado com varias imagens e consegue com precisao de identificar elementos na imagem em si
+
+Diferença entre Inception Score (IS) e FID?
+R- Inception Score (IS): mede a qualidade e diversidade das imagens geradas, quanto maior o valor, melhor o resultado da ia.
+FID: compara as imagens geradas com imagens reais, quanto menor o fid, mais parecidas as imagens falsas estão das verdadeiras.
+
+Como os limiares (IS > 5.0, FID 
+ 50) ajudam?
+R- ajudam a definir se o modelo está produzindo resultados bons

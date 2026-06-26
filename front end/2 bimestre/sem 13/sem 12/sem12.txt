@@ -1,0 +1,17 @@
+1 -qual era o problema da aplicação? 
+R- o problema da aplicaçao era quando a lista de usuários aumentava, o react atualizava todos os itens da lista novamente, deixando a aplicação bem lenta
+
+2-  O que o React.memo() ajuda a evitar?
+  R- o React.memo, ajuda a evitar renderizações desnecessárias dos componentes quando as informações não foram alteradas
+
+3. Para que serve o PureComponent?
+R- o PureComponent serve para impedir atualizações desnecessárias em componentes de classe, verificando se os dados mudaram antes de renderizar novamente
+
+4- O que a biblioteca react-window faz?
+R- a biblioteca react-window mostra apenas os itens visíveis da lista na tela, melhorando o desempenho da aplicação
+
+5- Por que uma lista muito grande pode deixar uma aplicação lenta?
+  R- porque o React precisa carregar e atualizar muitos elementos ao mesmo tempo, consumindo mais memória e processamento
+
+6- Depois das melhorias, o que mudou na aplicação?
+R- depois das melhorias, a aplicação ficou mais rápida, mais leve e com menos renderizações desnecessárias, melhorando a performance da lista de usuários.
